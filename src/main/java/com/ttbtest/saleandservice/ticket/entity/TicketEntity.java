@@ -31,12 +31,10 @@ public class TicketEntity {
     @Column(name = "status", length = 20, nullable = false)
     private String status = "In-progress";
 
-    @Column(name = "created_date", nullable = false)
+    @Column(name = "created_date")
     private Date createdDate;
 
     @Column(name = "updated_date")
     private Date updatedDate;
 
-    @Column(name = "account")
-    private Integer account;
 }

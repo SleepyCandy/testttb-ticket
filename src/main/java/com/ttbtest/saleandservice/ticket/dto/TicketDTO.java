@@ -8,8 +8,8 @@ import java.util.Date;
 @Data
 public class TicketDTO {
     String ticketId;
-    String customerId;
-    String accountId;
+    Integer customerId;
+    Integer accountId;
     String ticketType;
     String description;
     String status;
